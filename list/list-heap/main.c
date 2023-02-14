@@ -39,8 +39,8 @@ int main()
   p = (int*) realloc(p, size_mem * sizeof(int)); // change heap size
   *(p+6) = 7; // add new integer to heap memory
 
-  // print current memory size
-  printf("Heap Memsize : %d \n", size_mem);
+  // print current memory size allocated
+  printf("Heap Memsize : %lu \n", size_mem * sizeof(int));
 
   // print all member inside list heap
   printf("Member       : ");
