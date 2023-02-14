@@ -1,0 +1,12 @@
+#+TITLE: List Data Structure
+
+in C Programming, list can be created using array, we can use static memory or heap memory to make list
+
+* list specification
+  - Empty list has size of 0
+  - insert function
+  - remove function
+  - count function
+  - read/write function
+  - one data-type
+
